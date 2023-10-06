@@ -1,0 +1,74 @@
+/* ---------------------header------------------------- */
+.header {
+  background-color: var(--bg-green);
+  padding: 62px 120px 0;
+}
+.header_section_nav a {
+  padding: 5px 64px;
+  color: var(--text-black);
+  font-size: 24px;
+  font-weight: 400;
+}
+.header_section_nav a:first-child {
+  padding-left: 0;
+}
+.header_section_nav a:hover {
+  opacity: 0.8;
+}
+.header_sectio_nav a {
+  padding: 5px 64px;
+  color: var(--text-black);
+  font-size: 24px;
+  font-weight: 400;
+}
+.header_section_login,
+.header_block_btn a:last-child {
+  padding: 16px 40px;
+  border: 3px solid var(--text-green);
+  border-radius: 10px;
+  color: var(--text-green);
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.header_block_img img {
+  width: 1000px;
+  height: 950px;
+}
+
+.header_block_brand {
+  color: var(--primary-color);
+  font-size: 32px;
+  font-weight: 500;
+}
+.header_block_title {
+  color: var(--text-black);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+.header_block_desc {
+  max-width: 720px;
+  margin-top: 40px;
+  color: var(--text-grey);
+  text-align: justify;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.header_block_btn a {
+  margin-top: 64px;
+  padding: 20px 48px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header_block_btn a:first-child {
+  color: var(--text-white);
+  background-color: var(--text-green);
+  border: 3px solid var(--text-green);
+}
+/* -------------------Services---------------- */
+.services {
+  padding: 120px;
+}
+

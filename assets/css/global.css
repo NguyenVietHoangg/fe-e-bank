@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #288f69;
+
+  --bg-green: #d4f3e7;
+  --bg-grey: #d4d4d4;
+
+  --text-black: #252525;
+  --text-white: #ffffff;
+  --text-green: #33b786;
+  --text-grey: #555;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+}
+/* ---- Common----- */
+a {
+  text-decoration: none;
+}
+.btn-hover:hover {
+  color: var(--text-white) !important;
+  background-color: var(--primary-color) !important;
+  border: 3px solid var(--primary-color) !important;
+}
