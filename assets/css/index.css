@@ -2,25 +2,31 @@
 .header {
   background-color: var(--bg-green);
   padding: 62px 120px 0;
+  height: 100vh;
 }
+
 .header_section_nav a {
   padding: 5px 64px;
   color: var(--text-black);
   font-size: 24px;
   font-weight: 400;
 }
+
 .header_section_nav a:first-child {
   padding-left: 0;
 }
+
 .header_section_nav a:hover {
   opacity: 0.8;
 }
+
 .header_sectio_nav a {
   padding: 5px 64px;
   color: var(--text-black);
   font-size: 24px;
   font-weight: 400;
 }
+
 .header_section_login,
 .header_block_btn a:last-child {
   padding: 16px 40px;
@@ -30,8 +36,9 @@
   font-size: 2.4rem;
   font-weight: 500;
 }
+
 .header_block_img img {
-  width: 1000px;
+  width: 800px;
   height: 950px;
 }
 
@@ -40,12 +47,14 @@
   font-size: 32px;
   font-weight: 500;
 }
+
 .header_block_title {
   color: var(--text-black);
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
 }
+
 .header_block_desc {
   max-width: 720px;
   margin-top: 40px;
@@ -55,6 +64,7 @@
   font-weight: 400;
   line-height: 160%;
 }
+
 .header_block_btn a {
   margin-top: 64px;
   padding: 20px 48px;
@@ -62,13 +72,208 @@
   font-size: 24px;
   font-weight: 700;
 }
+
 .header_block_btn a:first-child {
   color: var(--text-white);
   background-color: var(--text-green);
   border: 3px solid var(--text-green);
 }
+
 /* -------------------Services---------------- */
-.services {
+.services,
+.finance {
   padding: 120px;
 }
 
+.services_title {
+  color: var(--text-black);
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+.services_list {
+  margin-top: 96px;
+  row-gap: 96px;
+  column-gap: 160px;
+
+}
+
+.services_item {
+  padding: 0;
+}
+
+.services_item_img {
+  width: 80px;
+  height: 80px;
+}
+
+.services_item_content {
+  margin-left: 40px;
+}
+
+.services_item_content h6 {
+  color: var(--text-green);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.services_item_content p {
+  margin-top: 24px;
+  color: var(--text-grey);
+  font-size: 24px;
+  line-height: 160%;
+
+}
+
+/* -------------------faqs----------------------- */
+.faqs,
+.footer {
+  padding: 120px;
+  background-color: var(--bg-green);
+}
+
+.faqs_title {
+  color: var(--text-black);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.faqs_content {
+  margin-top: 96px;
+}
+
+.faqs_content a:hover {
+  opacity: 0.8;
+}
+
+.faqs_content div,
+.faqs_content ul {
+  flex-basis: 50%;
+}
+
+.faqs_content div a {
+  color: var(--text-green);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.faqs_content div p {
+  margin-top: 64px;
+  color: var(--text-grey);
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 160%;
+  /* 38.4px */
+}
+
+.faqs_content ul li a {
+  color: #46237A;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.faqs_content ul li span {
+  width: 560px;
+}
+
+.finance_title {
+  color: var(--text-black);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.finance div {
+  margin-top: 96px;
+}
+
+/* footer */
+.footer_list {
+  column-gap: 192px;
+}
+
+.footer_item li:first-child {
+  margin: 0 0 16px 0;
+  color: var(--text-green);
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.footer_item li a {
+  margin-top: 24px;
+  color: #6C6C6C;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.footer_logo {
+  margin-top: 144px;
+}
+
+.footer_desc {
+  margin-top: 146px;
+  color: #6C6C6C;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.footer_media {
+  margin-top: 24px;
+}
+
+.footer_media a :hover {
+  opacity: .8;
+}
+
+.footer_img_block {
+  bottom: 0;
+  right: 0;
+}
+
+.footer_img_block>div {
+  padding: 120px;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.footer_img_block p:first-child {
+  color: var(--text-white);
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.footer_img_block p {
+  margin-top: 20px;
+  color: var(--text-white);
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+.footer_btn {
+  margin-top: 40px;
+}
+
+.footer_btn input {
+  width: 542px;
+  padding: 16px 26px;
+  border-radius: 12px;
+  border: 2px solid #E74F5B;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 0px 50px 0.5px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+  outline: none;
+  color: var(--text-white);
+}
+
+.footer_btn button {
+  padding: 0 16px;
+  border-radius: 12px;
+  color: var(--text-white);
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: var(--text-green);
+  border: 3px solid var(--text-green) !important;
+
+}

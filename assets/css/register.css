@@ -1,0 +1,107 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 120px;
+    background-color: var(--bg-green);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: #1dbfaf;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.register_aciton form {
+    padding: 68px 72px;
+    border-radius: 32px;
+    background-color: var(--text-white);
+    gap: 24px;
+}
+
+.register_aciton .heading {
+    margin-bottom: 24px;
+    color: var(--text-green);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 45.60px;
+}
+
+.register_aciton .form-group .form-label {
+    color: var(--text-black);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.register_aciton .form-group .form-control {
+    margin-top: 8px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    color: var(--text-black);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.register_aciton .form .form-submit {
+    padding: 20px 0;
+    background-color: #00C313;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.register_aciton .form .form-submit:hover {
+    opacity: 0.8;
+}
+
+.register_aciton .form p span {
+    color: #B8B8B8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.register_aciton .form p a {
+    color: #33B786;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 700;
+}
+
+
+.register_confirm span {
+    margin-left: 8px;
+    color: var(--text-grey);
+    font-size: 16px;
+    font-weight: 700;
+    word-wrap: break-word
+}
